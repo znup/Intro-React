@@ -1,0 +1,44 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #001023;
+  color: #19b4f1;
+  padding: 60px;
+}
+
+input {
+  width: 220px;
+  color: darkgray;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+hr {
+  margin-top: 40px;
+  border-color: #3ec5fa;
+}
+
+.card {
+  margin: 0px 10px 10px 0px;
+  align-content: center;
+  border: 1px solid #19b4f1;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+}
+
+.card img {
+  width: auto;
+  height: 200px;
+}
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
